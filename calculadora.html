@@ -14,6 +14,10 @@
 			var num = $("#n1");
 			num.val(num.val() * num.val());
 		});
+		$('#b2').on("click", function(){
+			var num = $("#n1");
+			num.val(Math.sqrt(num.val()));
+		});
 	});
 </script>
 </head>
@@ -22,5 +26,6 @@
 	Número:
 	<input type="text" id="n1"></input>
 	<button id="b1">x<sup>2</sup></button>
+	<button id="b2">sqrt(x)</button>
 </body>
 </html>
