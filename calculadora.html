@@ -14,6 +14,10 @@
 			var num = $("#n1");
 			num.val(num.val() * num.val());
 		});
+		$('#b3').on("click", function(){
+			var num = $("#n1");
+			num.val(num.val() * num.val() * num.val());
+		});
 	});
 </script>
 </head>
@@ -22,5 +26,6 @@
 	Número:
 	<input type="text" id="n1"></input>
 	<button id="b1">x<sup>2</sup></button>
+	<button id="b3">x<sup>3</sup></button>
 </body>
 </html>
